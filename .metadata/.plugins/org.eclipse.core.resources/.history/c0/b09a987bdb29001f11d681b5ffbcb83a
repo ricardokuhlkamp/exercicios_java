@@ -1,0 +1,16 @@
+package entities;
+
+public class Circulo {
+		
+	public static double circunference(double radius) {
+		return 2 * radius * Math.PI;
+	}
+	
+	public static double volume(double radius) {
+		return (4/3) * Math.PI * Math.pow(radius, 3);
+	}
+	
+	public static String pi() {
+		return String.format("%.2f", Math.PI);
+	}
+}

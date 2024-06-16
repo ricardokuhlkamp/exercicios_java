@@ -1,0 +1,22 @@
+package application;
+
+import java.util.Scanner;
+
+import entities.Circulo;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		public double radius;
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter radius: ");
+		System.out.println();
+		System.out.println("Circunference: " + Circulo.circunference(radius) + "\n" +
+				"Volume: " + Circulo.volume(radius) + "\n" +
+				"Circunference: " + Circulo.pi() + "\n");
+
+	}
+
+}
